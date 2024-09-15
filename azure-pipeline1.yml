@@ -5,13 +5,13 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  azureSubscription: 'Nuevo-Pipeline-laC'
+  azureSubscription: 'Pipeline-New-laC'
   location: 'eastus2'
   resourceGroupName: 'MiNuevoGrupoRecursos'
   virtualNetworkName: 'MiNuevaRedVirtual'
   subnetName: 'MiNuevaSubReds'
-  addressPrefix: '10.0.0.0/24'
-  subnetPrefix: '10.0.1.0/26'
+  addressPrefix: '10.0.0.0/16'
+  subnetPrefix: '10.0.1.0/24'
   securityGroupName: 'MiNuevoGrupoSeguridadRed'
   publicIpName: 'PublicIP-DevOps'
   vmName: 'miNuevaMaquinaVirtual'
