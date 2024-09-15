@@ -17,7 +17,7 @@ variables:
   vmName: 'miNuevaMaquinaVirtual'
   vmSize: 'Standard_B1s'  # SKU disponible en eastus2
   adminUsername: 'maquina1'
-  adminPassword: 'Maquina.$2024'  # Contraseña en texto plano (ajustar según necesidad)
+  adminPassword: 'Password1234$'  # Contraseña en texto plano (ajustar según necesidad)
 
   # Variables de la imagen
   imagePublisher: 'Canonical'
